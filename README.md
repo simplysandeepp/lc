@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0042-trapping-rain-water/) | Hard |
 | [0072-edit-distance](https://github.com/simplysandeepp/DSA/tree/main/0072-edit-distance/) | Medium |
 | [0120-triangle](https://github.com/simplysandeepp/DSA/tree/main/0120-triangle/) | Medium |
+| [0322-coin-change](https://github.com/simplysandeepp/DSA/tree/main/0322-coin-change/) | Medium |
 | [0337-house-robber-iii](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0337-house-robber-iii/) | Medium |
 | [0396-rotate-function](https://github.com/simplysandeepp/DSA/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/simplysandeepp/DSA/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0307-range-sum-query-mutable](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0315-count-of-smaller-numbers-after-self/) | Hard |
+| [0322-coin-change](https://github.com/simplysandeepp/DSA/tree/main/0322-coin-change/) | Medium |
 | [0327-count-of-range-sum](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0327-count-of-range-sum/) | Hard |
 | [0396-rotate-function](https://github.com/simplysandeepp/DSA/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/simplysandeepp/DSA/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -224,6 +226,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0322-coin-change](https://github.com/simplysandeepp/DSA/tree/main/0322-coin-change/) | Medium |
 | [0547-number-of-provinces](https://github.com/simplysandeepp/DSA/tree/main/0547-number-of-provinces/) | Medium |
 | [0662-maximum-width-of-binary-tree](https://github.com/simplysandeepp/DSA/tree/main/0662-maximum-width-of-binary-tree/) | Medium |
 | [0695-max-area-of-island](https://github.com/simplysandeepp/DSA/tree/main/0695-max-area-of-island/) | Medium |
