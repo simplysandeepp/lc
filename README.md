@@ -169,12 +169,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/simplysandeepp/DSA/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0901-online-stock-span](https://github.com/simplysandeepp/DSA/tree/main/0901-online-stock-span/) | Medium |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0042-trapping-rain-water](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/0042-trapping-rain-water/) | Hard |
 | [0084-largest-rectangle-in-histogram](https://github.com/simplysandeepp/DSA/tree/main/0084-largest-rectangle-in-histogram/) | Hard |
+| [0901-online-stock-span](https://github.com/simplysandeepp/DSA/tree/main/0901-online-stock-span/) | Medium |
 | [2940-find-building-where-alice-and-bob-can-meet](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/2940-find-building-where-alice-and-bob-can-meet/) | Hard |
 ## String
 | Problem Name | Difficulty |
@@ -284,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0303-range-sum-query-immutable](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0307-range-sum-query-mutable](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0307-range-sum-query-mutable/) | Medium |
+| [0901-online-stock-span](https://github.com/simplysandeepp/DSA/tree/main/0901-online-stock-span/) | Medium |
 | [1483-kth-ancestor-of-a-tree-node](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/1483-kth-ancestor-of-a-tree-node/) | Hard |
 | [2276-count-integers-in-intervals](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/2276-count-integers-in-intervals/) | Hard |
 ## Prefix Sum
@@ -482,4 +485,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/simplysandeepp/DSA/tree/main/3751-total-waviness-of-numbers-in-range-i/) | Medium |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0901-online-stock-span](https://github.com/simplysandeepp/DSA/tree/main/0901-online-stock-span/) | Medium |
 <!---LeetCode Topics End-->
