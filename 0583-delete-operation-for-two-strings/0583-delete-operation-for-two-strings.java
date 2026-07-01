@@ -1,25 +1,22 @@
 class Solution {
     public int minDistance(String word1, String word2) {
-        int n = word1.length();
-        int m = word2.length();
-
-        int l = lcs(n, m, word1, word2);
-        // int ans =  [m+n] - 2*l;
-        return m+n - 2*l;
-  
+        int m = word1.length();
+        int n = word2.length();
+		
+        int[][] dp = new int[m+1][n+1];
+        for(int[] d: dp) Arrays.fill(d,-1);
+        
+        int lcs = LCS(word1,word2,m,n,dp);
+        return m+n-(2*lcs);
     }
-    int lcs (int n, int m, String s1, String s2) {
-        StringBuilder sb = new StringBuilder();
-        int [][] dp = new int [n+1][m+1];
-        for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= m; j++) {
-                if(s1.charAt(i-1) == s2.charAt(j-1)) {
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                } else {
-                    dp[i][j] = Math.max(dp[i-1][j], dp[i][j-1]);
-                }
-            }
-        }
-        return dp[n][m];
+    private static int LCS(String s1,String s2,int m,int n,int[][] dp){
+        if(n==0 || m==0) return 0;
+        if(dp[m][n] != -1) return dp[m][n];
+		
+        if(s1.charAt(m-1) == s2.charAt(n-1))
+            return dp[m][n] = 1+LCS(s1,s2,m-1,n-1,dp);
+        
+        else
+            return dp[m][n] = Math.max(LCS(s1,s2,m-1,n,dp),LCS(s1,s2,m,n-1,dp));
     }
 }
