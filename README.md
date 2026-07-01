@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0879-profitable-schemes](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0879-profitable-schemes/) | Hard |
 | [0968-binary-tree-cameras](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0968-binary-tree-cameras/) | Hard |
 | [1137-n-th-tribonacci-number](https://github.com/simplysandeepp/DSA/tree/main/1137-n-th-tribonacci-number/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/simplysandeepp/DSA/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1340-jump-game-v](https://github.com/simplysandeepp/DSA/tree/main/1340-jump-game-v/) | Hard |
 | [1463-cherry-pickup-ii](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/1463-cherry-pickup-ii/) | Hard |
 | [1473-paint-house-iii](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/1473-paint-house-iii/) | Hard |
@@ -244,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/simplysandeepp/DSA/tree/main/0242-valid-anagram/) | Easy |
 | [0657-robot-return-to-origin](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/0657-robot-return-to-origin/) | Easy |
 | [0796-rotate-string](https://github.com/simplysandeepp/DSA/tree/main/0796-rotate-string/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/simplysandeepp/DSA/tree/main/1143-longest-common-subsequence/) | Medium |
 | [1268-search-suggestions-system](https://github.com/simplysandeepp/DSA/tree/main/1268-search-suggestions-system/) | Medium |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/simplysandeepp/DSA/tree/main/1358-number-of-substrings-containing-all-three-characters/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
