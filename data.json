@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-03T14:44:26.018Z",
+  "lastUpdated": "2026-07-03T14:47:49.835Z",
   "stats": {
-    "total": 574,
+    "total": 575,
     "difficulty": {
       "Easy": 211,
       "Medium": 278,
-      "Hard": 85
+      "Hard": 86
     },
     "platform": {
-      "LeetCode": 552,
+      "LeetCode": 553,
       "GFG": 22
     },
     "languages": {
-      "Java": 521,
+      "Java": 522,
       "SQL": 32,
       "Python": 4
     }
@@ -6993,6 +6993,20 @@
         "3614-process-string-with-special-operations-ii.java"
       ],
       "url": "https://leetcode.com/problems/process-string-with-special-operations-ii"
+    },
+    {
+      "number": 3620,
+      "title": "Network Recovery Pathways",
+      "difficulty": "Hard",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "3620-network-recovery-pathways",
+      "solutionFiles": [
+        "3620-network-recovery-pathways.java"
+      ],
+      "url": "https://leetcode.com/problems/network-recovery-pathways"
     },
     {
       "number": 3629,
