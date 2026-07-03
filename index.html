@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My LeetCode Journey | Coding Portfolio</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Explore my coding journey, showcasing solutions to LeetCode and GeeksforGeeks problems in Java, SQL, and Python. Fully searchable and filterable database.">
+  <meta name="keywords" content="LeetCode, GeeksforGeeks, Java, SQL, Python, Coding Portfolio, Problem Solving, Algorithms, Data Structures">
+  <meta name="author" content="Sandeep Prajapati">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://simplysandeepp.github.io/lc/">
+  <meta property="og:title" content="My LeetCode Journey | Coding Portfolio">
+  <meta property="og:description" content="Explore my coding journey, showcasing solutions to LeetCode and GeeksforGeeks problems in Java, SQL, and Python.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1618401471353-b98aedd07871?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://simplysandeepp.github.io/lc/">
+  <meta property="twitter:title" content="My LeetCode Journey | Coding Portfolio">
+  <meta property="twitter:description" content="Explore my coding journey, showcasing solutions to LeetCode and GeeksforGeeks problems in Java, SQL, and Python.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1618401471353-b98aedd07871?q=80&w=1200&auto=format&fit=crop">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3565/3565418.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Background Decorative Blurs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- Main Navigation / Header -->
+  <header>
+    <div class="header-container container">
+      <div class="logo">
+        <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+        <h1>My LeetCode Journey</h1>
+      </div>
+      <div class="header-actions">
+        <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">
+          <i class="fa-solid fa-sun"></i>
+        </button>
+        <a href="https://github.com/simplysandeepp/lc" target="_blank" rel="noopener noreferrer" class="btn-github-link">
+          <i class="fa-brands fa-github"></i>
+          <span>Repository</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>Solutions Archive</span>
+      </div>
+      <h2>Mastering DSA & Problem Solving</h2>
+      <p class="hero-subtitle">
+        An interactive library of data structures, algorithms, and SQL solutions. Auto-syncing from my local Git repository.
+      </p>
+      
+      <!-- Key Summary Stats Bar -->
+      <div class="header-quick-stats">
+        <div class="quick-stat-item">
+          <span class="label">Total Solved</span>
+          <span class="value" id="quick-total">0</span>
+        </div>
+        <div class="quick-stat-item">
+          <span class="label">Java</span>
+          <span class="value color-java" id="quick-java">0</span>
+        </div>
+        <div class="quick-stat-item">
+          <span class="label">SQL</span>
+          <span class="value color-sql" id="quick-sql">0</span>
+        </div>
+        <div class="quick-stat-item">
+          <span class="label">Python</span>
+          <span class="value color-python" id="quick-python">0</span>
+        </div>
+        <div class="quick-stat-item">
+          <span class="label">Last Updated</span>
+          <span class="value date" id="quick-updated">-</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dashboard & Statistics -->
+  <main class="container">
+    <section class="stats-section">
+      <h3 class="section-title"><i class="fa-solid fa-chart-pie"></i> Statistics Dashboard</h3>
+      
+      <div class="stats-grid">
+        <!-- Stat Card: Total -->
+        <div class="stat-card total-solved">
+          <div class="card-icon"><i class="fa-solid fa-trophy"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-total" data-target="0">0</span>
+            <span class="stat-label">Total Solved</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: Easy -->
+        <div class="stat-card diff-easy">
+          <div class="card-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-easy" data-target="0">0</span>
+            <span class="stat-label">Easy Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: Medium -->
+        <div class="stat-card diff-medium">
+          <div class="card-icon"><i class="fa-solid fa-circle-right"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-medium" data-target="0">0</span>
+            <span class="stat-label">Medium Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: Hard -->
+        <div class="stat-card diff-hard">
+          <div class="card-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-hard" data-target="0">0</span>
+            <span class="stat-label">Hard Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: Java -->
+        <div class="stat-card lang-java">
+          <div class="card-icon"><i class="fa-brands fa-java"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-java" data-target="0">0</span>
+            <span class="stat-label">Java Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: SQL -->
+        <div class="stat-card lang-sql">
+          <div class="card-icon"><i class="fa-solid fa-database"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-sql" data-target="0">0</span>
+            <span class="stat-label">SQL Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: Python -->
+        <div class="stat-card lang-python">
+          <div class="card-icon"><i class="fa-brands fa-python"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-python" data-target="0">0</span>
+            <span class="stat-label">Python Problems</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: LeetCode -->
+        <div class="stat-card platform-leetcode">
+          <div class="card-icon"><i class="fa-solid fa-code-branch"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-leetcode" data-target="0">0</span>
+            <span class="stat-label">LeetCode</span>
+          </div>
+        </div>
+
+        <!-- Stat Card: GFG -->
+        <div class="stat-card platform-gfg">
+          <div class="card-icon"><i class="fa-solid fa-terminal"></i></div>
+          <div class="card-info">
+            <span class="stat-num" id="stat-gfg" data-target="0">0</span>
+            <span class="stat-label">GeeksforGeeks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search & Filters Bar -->
+    <section class="filters-section-wrapper">
+      <div class="filters-section" id="filters-bar">
+        <div class="search-container">
+          <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+          <input type="text" id="search-input" placeholder="Search by problem name or number (e.g. 1 or Two Sum)...">
+          <button id="clear-search-btn" class="clear-btn" aria-label="Clear search" style="display: none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        
+        <div class="dropdowns-container">
+          <div class="filter-group">
+            <label for="filter-difficulty">Difficulty</label>
+            <div class="select-wrapper">
+              <select id="filter-difficulty">
+                <option value="all">All Difficulty</option>
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-platform">Platform</label>
+            <div class="select-wrapper">
+              <select id="filter-platform">
+                <option value="all">All Platforms</option>
+                <option value="LeetCode">LeetCode</option>
+                <option value="GFG">GFG</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="filter-group">
+            <label for="filter-language">Language</label>
+            <div class="select-wrapper">
+              <select id="filter-language">
+                <option value="all">All Languages</option>
+                <option value="Java">Java</option>
+                <option value="SQL">SQL</option>
+                <option value="Python">Python</option>
+              </select>
+            </div>
+          </div>
+          
+          <button id="reset-filters-btn" class="btn-secondary">
+            <i class="fa-solid fa-arrow-rotate-left"></i> Reset
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+      <div class="results-header">
+        <div class="results-count">
+          Showing <span id="current-count">0</span> of <span id="total-count">0</span> problems
+        </div>
+        <div class="sorting-controls">
+          <label for="sort-select">Sort By</label>
+          <div class="select-wrapper-small">
+            <select id="sort-select">
+              <option value="num-asc">Number (Asc)</option>
+              <option value="num-desc">Number (Desc)</option>
+              <option value="title-asc">Title (A-Z)</option>
+              <option value="title-desc">Title (Z-A)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Loading skeleton -->
+      <div id="loading-container" class="problems-grid">
+        <!-- Generated by JavaScript skeleton -->
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+        <div class="skeleton-card"></div>
+      </div>
+
+      <!-- Grid of problems -->
+      <div id="problems-grid" class="problems-grid" style="display: none;"></div>
+
+      <!-- No Results State -->
+      <div id="no-results" class="no-results" style="display: none;">
+        <i class="fa-regular fa-folder-open"></i>
+        <h4>No matching problems found</h4>
+        <p>Try refining your search query or removing filters.</p>
+        <button id="reset-no-results-btn" class="btn-primary">Clear Filters</button>
+      </div>
+
+      <!-- Pagination / Load More -->
+      <div id="load-more-container" class="load-more-container" style="display: none;">
+        <button id="load-more-btn" class="btn-primary">
+          <span>Load More Solutions</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Sandeep Prajapati. All rights reserved.</p>
+      <p class="footer-sub">
+        Crafted with <i class="fa-solid fa-heart color-love"></i> using HTML, CSS, and Vanilla JavaScript. 
+        Auto-built & deployed via GitHub Pages.
+      </p>
+      <div class="footer-links">
+        <a href="https://github.com/simplysandeepp" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://leetcode.com/u/simplysandeepp/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-code"></i> LeetCode</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-to-top" class="scroll-btn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
