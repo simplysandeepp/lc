@@ -294,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0172-factorial-trailing-zeroes](https://github.com/simplysandeepp/DSA/tree/main/0172-factorial-trailing-zeroes/) | Medium |
 | [0368-largest-divisible-subset](https://github.com/simplysandeepp/DSA/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0396-rotate-function](https://github.com/simplysandeepp/DSA/tree/main/0396-rotate-function/) | Medium |
+| [0400-nth-digit](https://github.com/simplysandeepp/DSA/tree/main/0400-nth-digit/) | Medium |
 | [0788-rotated-digits](https://github.com/simplysandeepp/DSA/tree/main/0788-rotated-digits/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/simplysandeepp/DSA/tree/main/1137-n-th-tribonacci-number/) | Easy |
 | [1344-angle-between-hands-of-a-clock](https://github.com/simplysandeepp/DSA/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
@@ -337,6 +338,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0315-count-of-smaller-numbers-after-self/) | Hard |
 | [0327-count-of-range-sum](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0327-count-of-range-sum/) | Hard |
 | [0354-russian-doll-envelopes](https://github.com/simplysandeepp/DSA/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0400-nth-digit](https://github.com/simplysandeepp/DSA/tree/main/0400-nth-digit/) | Medium |
 | [0493-reverse-pairs](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0493-reverse-pairs/) | Hard |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
 | [0875-koko-eating-bananas](https://github.com/simplysandeepp/DSA/tree/main/0875-koko-eating-bananas/) | Medium |
