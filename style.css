@@ -782,7 +782,7 @@ main {
 /* The Grid */
 .problems-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
   gap: 1.5rem;
 }
 
@@ -1154,6 +1154,21 @@ footer {
     width: 44px;
     height: 44px;
   }
+
+  /* Responsive Header for Tablets */
+  .btn-github-link span {
+    display: none;
+  }
+
+  .btn-github-link {
+    padding: 0;
+    width: 42px;
+    justify-content: center;
+  }
+
+  .logo h1 {
+    font-size: 1.2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1162,7 +1177,30 @@ footer {
   }
   
   .header-container {
-    height: 65px;
+    height: 60px;
+  }
+
+  /* Responsive Header for Mobile Screens */
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+
+  .logo h1 {
+    font-size: 1.05rem;
+  }
+
+  .btn-icon {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .btn-github-link {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
   }
   
   .hero-section h2 {

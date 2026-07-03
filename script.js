@@ -61,20 +61,40 @@ const elements = {
   scrollToTopBtn: document.getElementById('scroll-to-top')
 };
 
+// Safe LocalStorage Wrapper to prevent crashes in private browsing or iframe setups
+const safeStorage = {
+  getItem(key) {
+    try {
+      return localStorage.getItem(key);
+    } catch (e) {
+      return null;
+    }
+  },
+  setItem(key, value) {
+    try {
+      localStorage.setItem(key, value);
+    } catch (e) {}
+  }
+};
+
 // --------------------------------------------------------------------------
 // 1. Theme Management (Dark / Light Mode)
 // --------------------------------------------------------------------------
 function initTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'dark';
+  const savedTheme = safeStorage.getItem('theme') || 'dark';
   
   if (savedTheme === 'light') {
     elements.body.classList.remove('dark-theme');
     elements.body.classList.add('light-theme');
-    elements.themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    if (elements.themeToggle) {
+      elements.themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    }
   } else {
     elements.body.classList.remove('light-theme');
     elements.body.classList.add('dark-theme');
-    elements.themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    if (elements.themeToggle) {
+      elements.themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    }
   }
 }
 
@@ -83,13 +103,17 @@ function toggleTheme() {
   if (isDark) {
     elements.body.classList.remove('dark-theme');
     elements.body.classList.add('light-theme');
-    elements.themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
-    localStorage.setItem('theme', 'light');
+    if (elements.themeToggle) {
+      elements.themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+    }
+    safeStorage.setItem('theme', 'light');
   } else {
     elements.body.classList.remove('light-theme');
     elements.body.classList.add('dark-theme');
-    elements.themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
-    localStorage.setItem('theme', 'dark');
+    if (elements.themeToggle) {
+      elements.themeToggle.innerHTML = '<i class="fa-solid fa-sun"></i>';
+    }
+    safeStorage.setItem('theme', 'dark');
   }
 }
 
