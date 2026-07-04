@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-03T14:52:05.846Z",
+  "lastUpdated": "2026-07-04T21:17:08.142Z",
   "stats": {
-    "total": 575,
+    "total": 576,
     "difficulty": {
       "Easy": 211,
-      "Medium": 278,
+      "Medium": 279,
       "Hard": 86
     },
     "platform": {
-      "LeetCode": 553,
+      "LeetCode": 554,
       "GFG": 22
     },
     "languages": {
-      "Java": 522,
+      "Java": 523,
       "SQL": 32,
       "Python": 4
     }
@@ -2536,7 +2536,7 @@
       "solutionFiles": [
         "0400-nth-digit.java"
       ],
-      "url": "https://leetcode.com/problems/nth-digit/"
+      "url": "https://leetcode.com/problems/nth-digit"
     },
     {
       "number": 403,
@@ -5863,6 +5863,20 @@
         "2485-find-the-pivot-integer.java"
       ],
       "url": "https://leetcode.com/problems/find-the-pivot-integer"
+    },
+    {
+      "number": 2492,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "2492-minimum-score-of-a-path-between-two-cities",
+      "solutionFiles": [
+        "2492-minimum-score-of-a-path-between-two-cities.java"
+      ],
+      "url": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities"
     },
     {
       "number": 2515,
