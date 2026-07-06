@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-05T04:32:07.662Z",
+  "lastUpdated": "2026-07-06T16:30:48.673Z",
   "stats": {
-    "total": 577,
+    "total": 578,
     "difficulty": {
       "Easy": 211,
-      "Medium": 279,
+      "Medium": 280,
       "Hard": 87
     },
     "platform": {
-      "LeetCode": 555,
+      "LeetCode": 556,
       "GFG": 22
     },
     "languages": {
-      "Java": 524,
+      "Java": 525,
       "SQL": 32,
       "Python": 4
     }
@@ -4125,6 +4125,20 @@
         "1278-palindrome-partitioning-iii.java"
       ],
       "url": "https://leetcode.com/problems/palindrome-partitioning-iii"
+    },
+    {
+      "number": 1288,
+      "title": "Remove Covered Intervals",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "1288-remove-covered-intervals",
+      "solutionFiles": [
+        "1288-remove-covered-intervals.java"
+      ],
+      "url": "https://leetcode.com/problems/remove-covered-intervals"
     },
     {
       "number": 1293,
