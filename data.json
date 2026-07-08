@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-07T09:35:03.075Z",
+  "lastUpdated": "2026-07-08T05:15:10.315Z",
   "stats": {
-    "total": 579,
+    "total": 580,
     "difficulty": {
       "Easy": 212,
-      "Medium": 280,
+      "Medium": 281,
       "Hard": 87
     },
     "platform": {
-      "LeetCode": 557,
+      "LeetCode": 558,
       "GFG": 22
     },
     "languages": {
-      "Java": 526,
+      "Java": 527,
       "SQL": 32,
       "Python": 4
     }
@@ -7311,6 +7311,20 @@
         "3754-concatenate-non-zero-digits-and-multiply-by-sum-i.java"
       ],
       "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i"
+    },
+    {
+      "number": 3756,
+      "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "3756-concatenate-non-zero-digits-and-multiply-by-sum-ii",
+      "solutionFiles": [
+        "3756-concatenate-non-zero-digits-and-multiply-by-sum-ii.java"
+      ],
+      "url": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii"
     },
     {
       "number": 3761,
