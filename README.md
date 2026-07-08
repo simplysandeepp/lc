@@ -299,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/simplysandeepp/DSA/tree/main/0048-rotate-image/) | Medium |
 | [0062-unique-paths](https://github.com/simplysandeepp/DSA/tree/main/0062-unique-paths/) | Medium |
 | [0172-factorial-trailing-zeroes](https://github.com/simplysandeepp/DSA/tree/main/0172-factorial-trailing-zeroes/) | Medium |
+| [0326-power-of-three](https://github.com/simplysandeepp/DSA/tree/main/0326-power-of-three/) | Easy |
 | [0368-largest-divisible-subset](https://github.com/simplysandeepp/DSA/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0396-rotate-function](https://github.com/simplysandeepp/DSA/tree/main/0396-rotate-function/) | Medium |
 | [0400-nth-digit](https://github.com/simplysandeepp/DSA/tree/main/0400-nth-digit/) | Medium |
@@ -641,6 +642,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0010-regular-expression-matching](https://github.com/simplysandeepp/DSA/tree/main/0010-regular-expression-matching/) | Hard |
 | [0025-reverse-nodes-in-k-group](https://github.com/simplysandeepp/DSA/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
+| [0326-power-of-three](https://github.com/simplysandeepp/DSA/tree/main/0326-power-of-three/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
