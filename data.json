@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-08T05:15:10.315Z",
+  "lastUpdated": "2026-07-09T10:47:38.415Z",
   "stats": {
-    "total": 580,
+    "total": 581,
     "difficulty": {
       "Easy": 212,
-      "Medium": 281,
+      "Medium": 282,
       "Hard": 87
     },
     "platform": {
-      "LeetCode": 558,
+      "LeetCode": 559,
       "GFG": 22
     },
     "languages": {
-      "Java": 527,
+      "Java": 528,
       "SQL": 32,
       "Python": 4
     }
@@ -2228,7 +2228,7 @@
       "solutionFiles": [
         "0326-power-of-three.java"
       ],
-      "url": "https://leetcode.com/problems/power-of-three/?envType=problem-list-v2&envId=math"
+      "url": "https://leetcode.com/problems/power-of-three/"
     },
     {
       "number": 327,
@@ -6937,6 +6937,20 @@
         "3516-find-closest-person.java"
       ],
       "url": "https://leetcode.com/problems/find-closest-person/?envType=problem-list-v2&envId=math"
+    },
+    {
+      "number": 3532,
+      "title": "Path Existence Queries in a Graph I",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "3532-path-existence-queries-in-a-graph-i",
+      "solutionFiles": [
+        "3532-path-existence-queries-in-a-graph-i.java"
+      ],
+      "url": "https://leetcode.com/problems/path-existence-queries-in-a-graph-i"
     },
     {
       "number": 3536,
