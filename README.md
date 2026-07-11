@@ -137,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/simplysandeepp/DSA/tree/main/0322-coin-change/) | Medium |
 | [0327-count-of-range-sum](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0327-count-of-range-sum/) | Hard |
 | [0354-russian-doll-envelopes](https://github.com/simplysandeepp/DSA/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/simplysandeepp/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0368-largest-divisible-subset](https://github.com/simplysandeepp/DSA/tree/main/0368-largest-divisible-subset/) | Medium |
 | [0396-rotate-function](https://github.com/simplysandeepp/DSA/tree/main/0396-rotate-function/) | Medium |
 | [0416-partition-equal-subset-sum](https://github.com/simplysandeepp/DSA/tree/main/0416-partition-equal-subset-sum/) | Medium |
@@ -355,6 +356,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0315-count-of-smaller-numbers-after-self](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0315-count-of-smaller-numbers-after-self/) | Hard |
 | [0327-count-of-range-sum](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0327-count-of-range-sum/) | Hard |
 | [0354-russian-doll-envelopes](https://github.com/simplysandeepp/DSA/tree/main/0354-russian-doll-envelopes/) | Hard |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/simplysandeepp/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0400-nth-digit](https://github.com/simplysandeepp/DSA/tree/main/0400-nth-digit/) | Medium |
 | [0493-reverse-pairs](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0493-reverse-pairs/) | Hard |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
@@ -419,6 +421,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/simplysandeepp/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0560-subarray-sum-equals-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [0724-find-pivot-index](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Easy/0724-find-pivot-index/) | Easy |
 | [0862-shortest-subarray-with-sum-at-least-k](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0862-shortest-subarray-with-sum-at-least-k/) | Hard |
@@ -555,6 +558,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0315-count-of-smaller-numbers-after-self/) | Hard |
 | [0327-count-of-range-sum](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0327-count-of-range-sum/) | Hard |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/simplysandeepp/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0493-reverse-pairs](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/0493-reverse-pairs/) | Hard |
 | [2276-count-integers-in-intervals](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/2276-count-integers-in-intervals/) | Hard |
 | [2426-number-of-pairs-satisfying-inequality](https://github.com/simplysandeepp/DSA-Questions/tree/main/LeetCode/Hard/2426-number-of-pairs-satisfying-inequality/) | Hard |
@@ -572,6 +576,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/simplysandeepp/DSA/tree/main/0048-rotate-image/) | Medium |
 | [0221-maximal-square](https://github.com/simplysandeepp/DSA/tree/main/0221-maximal-square/) | Medium |
+| [0363-max-sum-of-rectangle-no-larger-than-k](https://github.com/simplysandeepp/DSA/tree/main/0363-max-sum-of-rectangle-no-larger-than-k/) | Hard |
 | [0695-max-area-of-island](https://github.com/simplysandeepp/DSA/tree/main/0695-max-area-of-island/) | Medium |
 | [0733-flood-fill](https://github.com/simplysandeepp/DSA/tree/main/0733-flood-fill/) | Easy |
 | [0741-cherry-pickup](https://github.com/simplysandeepp/Leetcode-Journey-/tree/main/LeetCode/Hard/0741-cherry-pickup/) | Hard |
