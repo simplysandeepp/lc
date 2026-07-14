@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-13T16:31:35.302Z",
+  "lastUpdated": "2026-07-14T03:42:51.667Z",
   "stats": {
-    "total": 585,
+    "total": 586,
     "difficulty": {
       "Easy": 213,
       "Medium": 283,
-      "Hard": 89
+      "Hard": 90
     },
     "platform": {
-      "LeetCode": 563,
+      "LeetCode": 564,
       "GFG": 22
     },
     "languages": {
-      "Java": 532,
+      "Java": 533,
       "SQL": 32,
       "Python": 4
     }
@@ -6783,6 +6783,20 @@
         "3321-find-x-sum-of-all-k-long-subarrays-ii.java"
       ],
       "url": "https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/?envType=daily-question&envId=2025-11-05"
+    },
+    {
+      "number": 3336,
+      "title": "Find the Number of Subsequences With Equal GCD",
+      "difficulty": "Hard",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "3336-find-the-number-of-subsequences-with-equal-gcd",
+      "solutionFiles": [
+        "3336-find-the-number-of-subsequences-with-equal-gcd.java"
+      ],
+      "url": "https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd"
     },
     {
       "number": 3340,
