@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-17T03:58:58.686Z",
+  "lastUpdated": "2026-07-17T07:26:37.098Z",
   "stats": {
-    "total": 587,
+    "total": 588,
     "difficulty": {
       "Easy": 213,
-      "Medium": 283,
+      "Medium": 284,
       "Hard": 91
     },
     "platform": {
-      "LeetCode": 565,
+      "LeetCode": 566,
       "GFG": 22
     },
     "languages": {
-      "Java": 533,
+      "Java": 534,
       "SQL": 32,
       "Python": 4
     }
@@ -1005,6 +1005,20 @@
         "0094-binary-tree-inorder-traversal.java"
       ],
       "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    },
+    {
+      "number": 98,
+      "title": "Validate Binary Search Tree",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "0098-validate-binary-search-tree",
+      "solutionFiles": [
+        "0098-validate-binary-search-tree.java"
+      ],
+      "url": "https://leetcode.com/problems/validate-binary-search-tree"
     },
     {
       "number": 100,
