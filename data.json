@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-17T08:13:58.046Z",
+  "lastUpdated": "2026-07-18T07:16:49.536Z",
   "stats": {
-    "total": 589,
+    "total": 590,
     "difficulty": {
-      "Easy": 213,
+      "Easy": 214,
       "Medium": 285,
       "Hard": 91
     },
     "platform": {
-      "LeetCode": 567,
+      "LeetCode": 568,
       "GFG": 22
     },
     "languages": {
-      "Java": 535,
+      "Java": 536,
       "SQL": 32,
       "Python": 4
     }
@@ -5345,6 +5345,20 @@
         "1976-number-of-ways-to-arrive-at-destination.java"
       ],
       "url": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+    },
+    {
+      "number": 1979,
+      "title": "Find Greatest Common Divisor of Array",
+      "difficulty": "Easy",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "1979-find-greatest-common-divisor-of-array",
+      "solutionFiles": [
+        "1979-find-greatest-common-divisor-of-array.java"
+      ],
+      "url": "https://leetcode.com/problems/find-greatest-common-divisor-of-array"
     },
     {
       "number": 1984,
