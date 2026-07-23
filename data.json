@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-07-22T05:17:41.907Z",
+  "lastUpdated": "2026-07-23T02:28:13.387Z",
   "stats": {
-    "total": 594,
+    "total": 595,
     "difficulty": {
       "Easy": 215,
-      "Medium": 287,
+      "Medium": 288,
       "Hard": 92
     },
     "platform": {
-      "LeetCode": 572,
+      "LeetCode": 573,
       "GFG": 22
     },
     "languages": {
-      "Java": 540,
+      "Java": 541,
       "SQL": 32,
       "Python": 4
     }
@@ -7087,6 +7087,20 @@
         "3512-minimum-operations-to-make-array-sum-divisible-by-k.java"
       ],
       "url": "https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/?envType=daily-question&envId=2026-04-04"
+    },
+    {
+      "number": 3513,
+      "title": "Number of Unique XOR Triplets I",
+      "difficulty": "Medium",
+      "platform": "LeetCode",
+      "languages": [
+        "Java"
+      ],
+      "path": "3513-number-of-unique-xor-triplets-i",
+      "solutionFiles": [
+        "3513-number-of-unique-xor-triplets-i.java"
+      ],
+      "url": "https://leetcode.com/problems/number-of-unique-xor-triplets-i"
     },
     {
       "number": 3516,
